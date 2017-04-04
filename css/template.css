@@ -1,0 +1,35 @@
+/* Default Classes*/
+
+.material {
+  box-shadow: 0px 2px 8px black;
+}
+
+.material-sm {
+  box-shadow: 0px 2px 4px black;
+}
+
+
+
+
+@media (max-width: 767px) {
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) { 
+
+
+}
+
+
+
+@media (min-width:992px) and (max-width: 1199px) { 
+
+
+}
+
+
+@media (min-width: 1200px) {
+
+}

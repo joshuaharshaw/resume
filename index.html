@@ -39,45 +39,48 @@
 
 <div class="pull-left main-page" id="mp-2">
 
-	<div class="skill-box">
-		<h1>What skills do I have?</h1>
-		<hr class="dark">
-		<div class="skill">HTML</div>
-		<div class="skill">CSS</div>
-		<div class="skill">JavaScript</div>
-		<div class="skill">React</div>
-		<div class="skill">PHP </div>
-		<div class="skill">MySQL</div>
+	<div class="material-sm" id="skill-header">
+		<span class="skill-head">What skills do I have?</span>
+		<span class="skill-head">What does this mean?</span>
+		<span class="skill-head">What can I build?</span>
 	</div>
 
+	<div id="skills">
+	
+		<div class="skill-box material-sm">
+			<div class="skill"><img src="./images/html5.svg" width="50px" height="50px"> HTML</div>
+			<div class="skill"><img src="./images/css3.svg" width="50px" height="50px"> CSS</div>
+			<div class="skill"><img src="./images/js.png" width="50px" height="50px"> JavaScript</div>
+			<div class="skill"><img src="./images/reactjs.svg" width="50px" height="50px"> React</div>
+			<div class="skill"><img src="./images/php.png" height="50px"> PHP</div>
+			<div class="skill"><img src="./images/mysql.svg" width="70px" height="70px"> MySQL</div>
+		</div>
 
-	<div class="skill-box">
-		<h1>What does this mean to you?</h1>
-		<hr class="dark">
-		<div class="skill">Create websites from scratch</div>
-		<div class="skill">Custom styling</div>
-		<div class="skill">Advanced behavior and functionality</div>
-		<div class="skill">Database/Back End functionality</div>
-	</div>
+		<div class="skill-box material-sm">
+			<div class="skill">Create websites from scratch</div>
+			<div class="skill">Custom styling</div>
+			<div class="skill">Advanced behavior and functionality</div>
+			<div class="skill">Database/Back End functionality</div>
+		</div>
 
-
-	<div class="skill-box">
-		<h1>What can I create?</h1>
-		<hr class="dark">
-		<div class="skill">HTML</div>
-		<div class="skill">CSS</div>
-		<div class="skill">JavaScript</div>
+		<div class="skill-box material-sm">
+			<div class="skill">HTML</div>
+			<div class="skill">CSS</div>
+			<div class="skill">JavaScript</div>
+		</div>
+	
 	</div>
 
 </div>
 
 <div class="pull-left main-page" id="mp-3">
+
 	<h1>Projects</h1>
 	<hr class="dark h1" />
 
 	<div id="projects">
 		<div class="project material-sm">
-		  <div class="project-border">
+		  <div class="project-border" data-status="closed">
 		    <div class="project-cover">
 		      <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
 		      <p>Site name Here</p>
@@ -86,7 +89,7 @@
 		</div>
 
 		<div class="project material-sm">
-		  <div class="project-border">
+		  <div class="project-border" data-status="closed">
 		    <div class="project-cover">
 		      <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
 		      <p>Site name Here</p>
@@ -95,7 +98,7 @@
 		</div>
 
 		<div class="project material-sm">
-		  <div class="project-border">
+		  <div class="project-border" data-status="closed">
 		    <div class="project-cover">
 		      <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
 		      <p>Site name Here</p>
@@ -104,6 +107,15 @@
 		</div>
 
 		<div class="project material-sm">
+		  <div class="project-border" data-status="closed">
+		    <div class="project-cover">
+		      <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
+		      <p>Site name Here</p>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="project material-sm" data-status="closed">
 		  <div class="project-border">
 		    <div class="project-cover">
 		      <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
@@ -112,16 +124,7 @@
 		  </div>
 		</div>
 
-		<div class="project material-sm">
-		  <div class="project-border">
-		    <div class="project-cover">
-		      <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
-		      <p>Site name Here</p>
-		    </div>
-		  </div>
-		</div>
-
-		<div class="project material-sm">
+		<div class="project material-sm" data-status="closed">
 		  <div class="project-border">
 		    <div class="project-cover">
 		      <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
@@ -155,5 +158,7 @@
   crossorigin="anonymous"></script> <!-- JQuery-->
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity= "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> <!-- Bootstrap JS Library-->
+
+<script type="text/javascript" src="./js/index.js"></script>
 
 </html>

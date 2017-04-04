@@ -47,6 +47,159 @@ hr.h1{
 }
 
 
+/* Half Screen */
+@media (min-width: 768px) and (max-width: 991px) { 
+
+/* Home Page*/
+#mp-1 {
+	background-color: gray;
+	background-image: url("../images/mp1.jpg");
+}
+
+#mainbox {
+	width: 90%;
+	height: 50%;
+	margin: 0px auto;
+	position: relative;
+	top: 25%;
+}
+
+#big-img {
+	width: 50%;
+	height: 100%;
+	background-color: black;
+}
+
+#big-links {
+	width: 50%;
+	height: 100%;
+}
+
+.big-link {
+	height: 33%;
+	width: 100%;
+	float: left;
+}
+
+#bl-1 {
+	background-color: #b2661a;
+}
+
+#bl-2 {
+	background-color: #0d77ba;
+}
+
+#bl-3 {
+	background-color: #0a9b3b;
+}
+
+
+
+/* Skills Page*/
+#mp-2 {
+	background-color: #b2661a;
+	/*display: flex;*/
+	justify-content: space-around;
+}
+
+#skill-header {
+	width: 95%;
+	height: 100px;
+	background-color: #f7faff;
+}
+
+.skill-box {
+	background-color: #f7faff;
+	width: 33%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	font-size: 3em;
+}
+
+.skill {
+	margin: 30px 0px;
+}
+
+/* Projects Page*/
+#mp-3 {
+	background-color: #0d77ba;
+	text-align: center;
+	height: auto;
+}
+
+#projects {
+	display: flex;	
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+.project {
+  height: 300px;
+  width: 45%;
+  background-color:white;
+  margin: 10px auto;
+}
+
+.project-border {
+  height: 99%;
+  width: 99%;
+  background-color:gray;
+  margin: 1.5px 2.5px; 
+
+  transition: transform 250ms linear 0s;
+}
+
+.animate {
+	transform: translate(0px, -250px);
+}
+
+.project-cover {
+	height: 100px;
+	width: 100px;
+	position:relative;
+  	top:40%;
+  	left: 40%;
+}
+
+
+.project-cover span,p {
+  transform:scale(2);
+}
+
+/* Contact Page*/
+#mp-4 {
+	background-color: #0a9b3b;
+	height: 300px;
+}
+
+#contact-content {
+	width: 50%;
+	height: 90%;
+	margin: 20px auto 0px;
+	text-align: center;
+}
+
+#contact-header {
+	width: 50%;
+	height: 30%;
+	margin:0px auto;
+}
+
+#contacts {
+	width: 50%;
+	height: 50%;
+	margin:0px auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+}
+
+
+@media (min-width: 1200px) {
+
 
 /* Home Page*/
 #mp-1 {
@@ -96,16 +249,37 @@ hr.h1{
 /* Skills Page*/
 #mp-2 {
 	background-color: #b2661a;
+}
+
+#skill-header {
+	width: 95%;
+	height: 100px;
+	margin: 15px auto;
+	background-color: #f7faff;
 	display: flex;
 	justify-content: space-around;
 }
 
+.skill-head {
+	font-size: 30px;
+	margin-top: 30px;
+}
+
+#skills {
+	width: 95%;
+	height: 80%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
 .skill-box {
-	width: 33%;
+	width: 30%;
 	height: 100%;
 	float: left;
 	text-align: center;
 	font-size: 3em;
+	background-color: #f7faff;
 }
 
 .skill {
@@ -138,6 +312,12 @@ hr.h1{
   width: 99%;
   background-color:gray;
   margin: 1.5px 2.5px; 
+
+  transition: transform 250ms linear 0s;
+}
+
+.animate {
+	transform: translate(0px, -275px);
 }
 
 .project-cover {
@@ -151,6 +331,8 @@ hr.h1{
 .project-cover span,p {
   transform:scale(2);
 }
+
+
 
 /* Contact Page*/
 #mp-4 {
@@ -177,5 +359,9 @@ hr.h1{
 	margin:0px auto;
 	display: flex;
 	justify-content: space-around;
+}
+
+
+
 }
 
